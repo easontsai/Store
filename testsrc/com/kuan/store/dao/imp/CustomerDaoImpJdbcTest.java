@@ -23,6 +23,7 @@ class CustomerDaoImpJdbcTest {
     @AfterEach
     void tearDown() {
         dao = null;
+        
     }
 
     @Test
